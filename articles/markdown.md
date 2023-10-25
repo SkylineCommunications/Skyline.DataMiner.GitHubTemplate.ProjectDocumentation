@@ -30,7 +30,7 @@ For example:
 [Markdown page](xref:markdown)
 ```
 
-For more information refer to (Links and Cross References)[https://dotnet.github.io/docfx/tutorial/links_and_cross_references.html].
+For more information refer to [Links and Cross References](https://dotnet.github.io/docfx/tutorial/links_and_cross_references.html).
 
 ## Examples DocFx flavored markdown
 
