@@ -6,10 +6,10 @@ Welcome to our Documentation Repository! 🚀
 
 This repository serves as the central hub when we want to work together with our DevOps Professionals on Project Documentation. Clear and comprehensive documentation is crucial for understanding our deliverables, projects, and complex environments. It not only benefits us internally but also plays a vital role in ensuring our customers have a seamless experience and clear understanding of the environment.
 
-Navigate to our documentation: [Home Page](xref:index)
+Navigate to our documentation: [Home Page](index.md)
 
 > [!IMPORTANT]
-> Please read carefully the guidelines outlined in the [Getting Started](xref:gettingStarted)
+> Please read carefully the guidelines outlined in the [Getting Started](xref:gettingstarted)
 
 ## Why Documentation Matters
 
