@@ -9,7 +9,7 @@ This repository serves as the central hub when we want to work together with our
 Navigate to our documentation: [Home Page](index.md)
 
 > [!IMPORTANT]
-> Please read carefully the guidelines outlined in the [Getting Started](xref:gettingstarted)
+> Please read carefully the guidelines outlined in the [Getting Started](xref:gettingStarted)
 
 ## Why Documentation Matters
 
