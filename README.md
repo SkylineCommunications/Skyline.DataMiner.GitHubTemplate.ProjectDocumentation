@@ -21,7 +21,7 @@ Documentation provides a shared understanding and knowledge base for our team an
 
 ## How to Contribute
 
-We encourage all team members to actively contribute to our documentation efforts. 
+We encourage all team members to actively contribute to our documentation efforts.
 
 > [!NOTE]
 > Of course, it should be clear that we are doing this effort as part of our deliverables, and hence it should be clear this is categorized as **engineering work (billable)**.
