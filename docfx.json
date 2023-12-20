@@ -28,7 +28,8 @@
     "fileMetadataFiles": [],
     "template": [
       "default",
-      "templates/skyfx"
+	  "modern",
+      "templates/skyline"
     ],
     "postProcessors": [ "ExtractSearchIndex" ],
     "markdownEngineName": "markdig",
