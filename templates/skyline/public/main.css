@@ -118,15 +118,12 @@ body {
   word-wrap: break-word;
 }
 
-
 h1,
 .h1,
 h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 30px;
-  margin-bottom: 18px;
   font-weight: 600;
 }
 h4,
@@ -135,8 +132,6 @@ h5,
 .h5,
 h6,
 .h6 {
-  margin-top: 30px;
-  margin-bottom: 15px;
   font-weight: 600;
 }
 
