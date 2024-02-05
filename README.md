@@ -36,14 +36,46 @@ Want to contribute? Check out [Contributing to the project documentation](xref:c
 
 3. **Review and Improve:** Review existing documentation to identify areas of improvement. Even small edits can enhance clarity and usability.
 
+## How to get started
+
+> [!IMPORTANT]
+> For Skyline employees: Please include a link from [InternalDocs - ProjectDocs](https://internaldocs.skyline.be/Projects/Projects.html) to this repository
+
+1. Follow the steps described at [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)
+1. While creating the new repository, take into account the [GitHub Repository Guidelines](https://docs.dataminer.services/develop/CICD/Skyline%20Communications/Github/Use_Github_Guidelines.html) described in the DataMiner Docs. 
+    1. Suggested Naming Convention: {customerAcronym}-DOC-NameOfProject
+    2. Add/Change the license according to what is agreed with the customer
+    3. Add GitHub repository topics: dataminer-doc
+1. Once the repository is cloned, add your custom documentation available in the 'articles' folder. Suggest structure:
+    1. overview.md: the purpose of the environment is documented with a high-level overview of the most important components
+    2. features.md: key components of the environment, typically with subfolders
+    3. infrastructure.md: user-oriented POV explanation of how the environment is built (architecture, database types, failover, etc.)
+1. You can build a test build by following [Contributing to the project documentation](xref:contributing).
+1. When you are happy with your changes, push them to the GitHub repository.
+1. GitHub actions will make an artifact available that you put on your DataMiner which will host this as a static website. If you are interested, follow the steps in the section below.
+
+### Tips
+
+1. Change this README, and add a link to your front page so it is easily accessible through GitHub as well.
+1. Add image files to the *images* folder if the file is referencing an image.
+1. Consider using Mermaid for creating diagrams, etc. When creating images using Mermaid, take into account the dark and light themes. Make sure the images are readable in both themes.
+1. Do not create lengthy pages. It is preferred to create smaller pages as the search is performed on page level.
+
 ## GitHub Actions and Hosting
 
 We have set up GitHub Actions to automate the building process of our documentation artifacts. Through this automation, we can host a static website (e.g. on IIS) with the content of this repository. This ensures that our documentation is always up-to-date and easily accessible to both our team and users.
 
 Our documentation artifacts are generated automatically through GitHub Actions. When making changes, simply commit your updates to the repository. GitHub Actions will take care of the rest, ensuring our static website is continuously updated. For now, there's no automatic deployment available, so we still need to manually copy the artifacts to a folder under IIS.
 
-> [!NOTE]
-> When hosting your website under IIS (used by DataMiner), you will still need to configure the default file (index.html) so you can browse easily to the folder (e.g. https://`hostname`/Documentation)
+1. On your GitHub repository, go to the tab 'Actions'
+1. Download the 'Documentation.zip'
+1. Extract the archive in your DataMiner in the location 'C:\Skyline DataMiner\Webpages\Documentation'. Note the 'Documentation' folder is not available by default and can be created.
+1. Configure the default file in ISS
+    1. Go to Internet Information Services (IIS) Manager
+    1. Find the 'Documentation' folder you have added
+    1. In the 'IIS' section, double click on 'Default Document'
+    1. Include the index.html on the list.
+1. Navigate to 'https://`hostname`/Documentation' to view the website
 
 ## Let's Build Something Great Together!
 
